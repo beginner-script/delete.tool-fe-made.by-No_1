@@ -6,7 +6,7 @@ local mouse = player:GetMouse()
 local character = player.Character or player.CharacterAdded:Wait()
 
 local tool = Instance.new("Tool")
-tool.Name = "지우개"
+tool.Name = "tool"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
